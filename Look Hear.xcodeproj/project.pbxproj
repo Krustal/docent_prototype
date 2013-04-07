@@ -1,0 +1,511 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		749E68661710EED300173D60 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 749E68651710EED300173D60 /* UIKit.framework */; };
+		749E68681710EED300173D60 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 749E68671710EED300173D60 /* Foundation.framework */; };
+		749E686A1710EED300173D60 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 749E68691710EED300173D60 /* CoreGraphics.framework */; };
+		749E68701710EED300173D60 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 749E686E1710EED300173D60 /* InfoPlist.strings */; };
+		749E68721710EED300173D60 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 749E68711710EED300173D60 /* main.m */; };
+		749E68761710EED300173D60 /* LHAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 749E68751710EED300173D60 /* LHAppDelegate.m */; };
+		749E68781710EED300173D60 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 749E68771710EED300173D60 /* Default.png */; };
+		749E687A1710EED300173D60 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 749E68791710EED300173D60 /* Default@2x.png */; };
+		749E687C1710EED300173D60 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 749E687B1710EED300173D60 /* Default-568h@2x.png */; };
+		749E687F1710EED300173D60 /* LHViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 749E687E1710EED300173D60 /* LHViewController.m */; };
+		749E68821710EED300173D60 /* LHViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 749E68801710EED300173D60 /* LHViewController.xib */; };
+		749E688A1710EED300173D60 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 749E68891710EED300173D60 /* SenTestingKit.framework */; };
+		749E688B1710EED300173D60 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 749E68651710EED300173D60 /* UIKit.framework */; };
+		749E688C1710EED300173D60 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 749E68671710EED300173D60 /* Foundation.framework */; };
+		749E68941710EED300173D60 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 749E68921710EED300173D60 /* InfoPlist.strings */; };
+		749E68971710EED300173D60 /* Look_HearTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 749E68961710EED300173D60 /* Look_HearTests.m */; };
+		749E68A11710F62F00173D60 /* background_Image.png in Resources */ = {isa = PBXBuildFile; fileRef = 749E68A01710F62E00173D60 /* background_Image.png */; };
+		749E68A4171106E400173D60 /* LHMediaView.m in Sources */ = {isa = PBXBuildFile; fileRef = 749E68A3171106E400173D60 /* LHMediaView.m */; };
+		DE18F2CB1711124D00B70F3C /* 1.m4a in Resources */ = {isa = PBXBuildFile; fileRef = DE18F2C61711124D00B70F3C /* 1.m4a */; };
+		DE18F2CC1711124D00B70F3C /* 2.m4a in Resources */ = {isa = PBXBuildFile; fileRef = DE18F2C71711124D00B70F3C /* 2.m4a */; };
+		DE18F2CD1711124D00B70F3C /* 3.m4a in Resources */ = {isa = PBXBuildFile; fileRef = DE18F2C81711124D00B70F3C /* 3.m4a */; };
+		DE18F2CE1711124D00B70F3C /* 4.m4a in Resources */ = {isa = PBXBuildFile; fileRef = DE18F2C91711124D00B70F3C /* 4.m4a */; };
+		DE18F2CF1711124D00B70F3C /* 5.m4a in Resources */ = {isa = PBXBuildFile; fileRef = DE18F2CA1711124D00B70F3C /* 5.m4a */; };
+		DE2919871711DDB800A5EFF7 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE2919851711DDAE00A5EFF7 /* AVFoundation.framework */; };
+		DEE9301C1711269900A37E3A /* media_audio.png in Resources */ = {isa = PBXBuildFile; fileRef = DEE9301B1711269900A37E3A /* media_audio.png */; };
+		DEE93020171132A400A37E3A /* LHMediaPlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEE9301F171132A400A37E3A /* LHMediaPlayViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		749E688D1710EED300173D60 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 749E68581710EED300173D60 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 749E68601710EED300173D60;
+			remoteInfo = "Look Hear";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		749E68611710EED300173D60 /* Look Hear.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Look Hear.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		749E68651710EED300173D60 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		749E68671710EED300173D60 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		749E68691710EED300173D60 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		749E686D1710EED300173D60 /* Look Hear-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Look Hear-Info.plist"; sourceTree = "<group>"; };
+		749E686F1710EED300173D60 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		749E68711710EED300173D60 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		749E68731710EED300173D60 /* Look Hear-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Look Hear-Prefix.pch"; sourceTree = "<group>"; };
+		749E68741710EED300173D60 /* LHAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LHAppDelegate.h; sourceTree = "<group>"; };
+		749E68751710EED300173D60 /* LHAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LHAppDelegate.m; sourceTree = "<group>"; };
+		749E68771710EED300173D60 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		749E68791710EED300173D60 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		749E687B1710EED300173D60 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		749E687D1710EED300173D60 /* LHViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LHViewController.h; sourceTree = "<group>"; };
+		749E687E1710EED300173D60 /* LHViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LHViewController.m; sourceTree = "<group>"; };
+		749E68811710EED300173D60 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/LHViewController.xib; sourceTree = "<group>"; };
+		749E68881710EED300173D60 /* Look HearTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Look HearTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		749E68891710EED300173D60 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		749E68911710EED300173D60 /* Look HearTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Look HearTests-Info.plist"; sourceTree = "<group>"; };
+		749E68931710EED300173D60 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		749E68951710EED300173D60 /* Look_HearTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Look_HearTests.h; sourceTree = "<group>"; };
+		749E68961710EED300173D60 /* Look_HearTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Look_HearTests.m; sourceTree = "<group>"; };
+		749E68A01710F62E00173D60 /* background_Image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = background_Image.png; path = assets/background_Image.png; sourceTree = SOURCE_ROOT; };
+		749E68A2171106E400173D60 /* LHMediaView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LHMediaView.h; sourceTree = "<group>"; };
+		749E68A3171106E400173D60 /* LHMediaView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LHMediaView.m; sourceTree = "<group>"; };
+		DE18F2C61711124D00B70F3C /* 1.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = 1.m4a; path = ../assets/1.m4a; sourceTree = "<group>"; };
+		DE18F2C71711124D00B70F3C /* 2.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = 2.m4a; path = ../assets/2.m4a; sourceTree = "<group>"; };
+		DE18F2C81711124D00B70F3C /* 3.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = 3.m4a; path = ../assets/3.m4a; sourceTree = "<group>"; };
+		DE18F2C91711124D00B70F3C /* 4.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = 4.m4a; path = ../assets/4.m4a; sourceTree = "<group>"; };
+		DE18F2CA1711124D00B70F3C /* 5.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = 5.m4a; path = ../assets/5.m4a; sourceTree = "<group>"; };
+		DE2919851711DDAE00A5EFF7 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		DEE9301B1711269900A37E3A /* media_audio.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = media_audio.png; sourceTree = "<group>"; };
+		DEE9301E171132A400A37E3A /* LHMediaPlayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LHMediaPlayViewController.h; sourceTree = "<group>"; };
+		DEE9301F171132A400A37E3A /* LHMediaPlayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LHMediaPlayViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		749E685E1710EED300173D60 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE2919871711DDB800A5EFF7 /* AVFoundation.framework in Frameworks */,
+				749E68661710EED300173D60 /* UIKit.framework in Frameworks */,
+				749E68681710EED300173D60 /* Foundation.framework in Frameworks */,
+				749E686A1710EED300173D60 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		749E68841710EED300173D60 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				749E688A1710EED300173D60 /* SenTestingKit.framework in Frameworks */,
+				749E688B1710EED300173D60 /* UIKit.framework in Frameworks */,
+				749E688C1710EED300173D60 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		749E68561710EED300173D60 = {
+			isa = PBXGroup;
+			children = (
+				749E686B1710EED300173D60 /* Look Hear */,
+				749E688F1710EED300173D60 /* Look HearTests */,
+				749E68641710EED300173D60 /* Frameworks */,
+				749E68621710EED300173D60 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		749E68621710EED300173D60 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				749E68611710EED300173D60 /* Look Hear.app */,
+				749E68881710EED300173D60 /* Look HearTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		749E68641710EED300173D60 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DE2919851711DDAE00A5EFF7 /* AVFoundation.framework */,
+				749E68651710EED300173D60 /* UIKit.framework */,
+				749E68671710EED300173D60 /* Foundation.framework */,
+				749E68691710EED300173D60 /* CoreGraphics.framework */,
+				749E68891710EED300173D60 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		749E686B1710EED300173D60 /* Look Hear */ = {
+			isa = PBXGroup;
+			children = (
+				749E68741710EED300173D60 /* LHAppDelegate.h */,
+				749E68751710EED300173D60 /* LHAppDelegate.m */,
+				749E687D1710EED300173D60 /* LHViewController.h */,
+				749E687E1710EED300173D60 /* LHViewController.m */,
+				749E68A2171106E400173D60 /* LHMediaView.h */,
+				749E68A3171106E400173D60 /* LHMediaView.m */,
+				DEE9301E171132A400A37E3A /* LHMediaPlayViewController.h */,
+				DEE9301F171132A400A37E3A /* LHMediaPlayViewController.m */,
+				749E686C1710EED300173D60 /* Supporting Files */,
+			);
+			path = "Look Hear";
+			sourceTree = "<group>";
+		};
+		749E686C1710EED300173D60 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				749E68801710EED300173D60 /* LHViewController.xib */,
+				DEE9301B1711269900A37E3A /* media_audio.png */,
+				749E68A01710F62E00173D60 /* background_Image.png */,
+				DE18F2C61711124D00B70F3C /* 1.m4a */,
+				DE18F2C71711124D00B70F3C /* 2.m4a */,
+				DE18F2C81711124D00B70F3C /* 3.m4a */,
+				DE18F2C91711124D00B70F3C /* 4.m4a */,
+				DE18F2CA1711124D00B70F3C /* 5.m4a */,
+				749E686D1710EED300173D60 /* Look Hear-Info.plist */,
+				749E686E1710EED300173D60 /* InfoPlist.strings */,
+				749E68711710EED300173D60 /* main.m */,
+				749E68731710EED300173D60 /* Look Hear-Prefix.pch */,
+				749E68771710EED300173D60 /* Default.png */,
+				749E68791710EED300173D60 /* Default@2x.png */,
+				749E687B1710EED300173D60 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		749E688F1710EED300173D60 /* Look HearTests */ = {
+			isa = PBXGroup;
+			children = (
+				749E68951710EED300173D60 /* Look_HearTests.h */,
+				749E68961710EED300173D60 /* Look_HearTests.m */,
+				749E68901710EED300173D60 /* Supporting Files */,
+			);
+			path = "Look HearTests";
+			sourceTree = "<group>";
+		};
+		749E68901710EED300173D60 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				749E68911710EED300173D60 /* Look HearTests-Info.plist */,
+				749E68921710EED300173D60 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		749E68601710EED300173D60 /* Look Hear */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 749E689A1710EED300173D60 /* Build configuration list for PBXNativeTarget "Look Hear" */;
+			buildPhases = (
+				749E685D1710EED300173D60 /* Sources */,
+				749E685E1710EED300173D60 /* Frameworks */,
+				749E685F1710EED300173D60 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Look Hear";
+			productName = "Look Hear";
+			productReference = 749E68611710EED300173D60 /* Look Hear.app */;
+			productType = "com.apple.product-type.application";
+		};
+		749E68871710EED300173D60 /* Look HearTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 749E689D1710EED300173D60 /* Build configuration list for PBXNativeTarget "Look HearTests" */;
+			buildPhases = (
+				749E68831710EED300173D60 /* Sources */,
+				749E68841710EED300173D60 /* Frameworks */,
+				749E68851710EED300173D60 /* Resources */,
+				749E68861710EED300173D60 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				749E688E1710EED300173D60 /* PBXTargetDependency */,
+			);
+			name = "Look HearTests";
+			productName = "Look HearTests";
+			productReference = 749E68881710EED300173D60 /* Look HearTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		749E68581710EED300173D60 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = LH;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Jared Clement";
+			};
+			buildConfigurationList = 749E685B1710EED300173D60 /* Build configuration list for PBXProject "Look Hear" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 749E68561710EED300173D60;
+			productRefGroup = 749E68621710EED300173D60 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				749E68601710EED300173D60 /* Look Hear */,
+				749E68871710EED300173D60 /* Look HearTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		749E685F1710EED300173D60 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				749E68701710EED300173D60 /* InfoPlist.strings in Resources */,
+				749E68781710EED300173D60 /* Default.png in Resources */,
+				749E687A1710EED300173D60 /* Default@2x.png in Resources */,
+				749E687C1710EED300173D60 /* Default-568h@2x.png in Resources */,
+				749E68821710EED300173D60 /* LHViewController.xib in Resources */,
+				749E68A11710F62F00173D60 /* background_Image.png in Resources */,
+				DE18F2CB1711124D00B70F3C /* 1.m4a in Resources */,
+				DE18F2CC1711124D00B70F3C /* 2.m4a in Resources */,
+				DE18F2CD1711124D00B70F3C /* 3.m4a in Resources */,
+				DE18F2CE1711124D00B70F3C /* 4.m4a in Resources */,
+				DE18F2CF1711124D00B70F3C /* 5.m4a in Resources */,
+				DEE9301C1711269900A37E3A /* media_audio.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		749E68851710EED300173D60 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				749E68941710EED300173D60 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		749E68861710EED300173D60 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		749E685D1710EED300173D60 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				749E68721710EED300173D60 /* main.m in Sources */,
+				749E68761710EED300173D60 /* LHAppDelegate.m in Sources */,
+				749E687F1710EED300173D60 /* LHViewController.m in Sources */,
+				749E68A4171106E400173D60 /* LHMediaView.m in Sources */,
+				DEE93020171132A400A37E3A /* LHMediaPlayViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		749E68831710EED300173D60 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				749E68971710EED300173D60 /* Look_HearTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		749E688E1710EED300173D60 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 749E68601710EED300173D60 /* Look Hear */;
+			targetProxy = 749E688D1710EED300173D60 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		749E686E1710EED300173D60 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				749E686F1710EED300173D60 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		749E68801710EED300173D60 /* LHViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				749E68811710EED300173D60 /* en */,
+			);
+			name = LHViewController.xib;
+			sourceTree = "<group>";
+		};
+		749E68921710EED300173D60 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				749E68931710EED300173D60 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		749E68981710EED300173D60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		749E68991710EED300173D60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		749E689B1710EED300173D60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Look Hear/Look Hear-Prefix.pch";
+				INFOPLIST_FILE = "Look Hear/Look Hear-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		749E689C1710EED300173D60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Look Hear/Look Hear-Prefix.pch";
+				INFOPLIST_FILE = "Look Hear/Look Hear-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		749E689E1710EED300173D60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Look Hear.app/Look Hear";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Look Hear/Look Hear-Prefix.pch";
+				INFOPLIST_FILE = "Look HearTests/Look HearTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		749E689F1710EED300173D60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Look Hear.app/Look Hear";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Look Hear/Look Hear-Prefix.pch";
+				INFOPLIST_FILE = "Look HearTests/Look HearTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		749E685B1710EED300173D60 /* Build configuration list for PBXProject "Look Hear" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				749E68981710EED300173D60 /* Debug */,
+				749E68991710EED300173D60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		749E689A1710EED300173D60 /* Build configuration list for PBXNativeTarget "Look Hear" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				749E689B1710EED300173D60 /* Debug */,
+				749E689C1710EED300173D60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		749E689D1710EED300173D60 /* Build configuration list for PBXNativeTarget "Look HearTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				749E689E1710EED300173D60 /* Debug */,
+				749E689F1710EED300173D60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 749E68581710EED300173D60 /* Project object */;
+}
